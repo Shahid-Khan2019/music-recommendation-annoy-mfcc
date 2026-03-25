@@ -31,8 +31,6 @@ The system analyzes songs using **MFCC (Mel-Frequency Cepstral Coefficients)** a
 │── standardizing_mfccs.py     # Normalize MFCC features
 │── making_annoy_model.py      # Build Annoy index
 │── test_annoy.py              # Retrieve similar songs (recommendation)
-│── ids.txt                    # Mapping of Annoy index to MongoDB IDs
-│── mfcc_index.ann             # Saved Annoy index
 ```
 
 ---
